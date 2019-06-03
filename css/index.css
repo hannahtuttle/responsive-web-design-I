@@ -63,9 +63,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-body {
+.wrapper {
 	margin: 0 auto;
-	width:880px;
+	max-width:880px;
 
 }
 
@@ -154,8 +154,9 @@ body {
 		padding-top: 20px;
 		padding-bottom: 20px;
         margin-top: 40px;
+        margin-bottom: 30px;
     }
-    @media (max-width: 500px){
+    @media (max-width: 800px){
         .middle{
             width: 95%;
             margin: 0 auto;
@@ -186,14 +187,12 @@ body {
         }
     }
 
-	.middle-image{
-		padding-bottom: 50px;
+	.middle-img{
+        padding-bottom: 50px;
+        width: 100%;
+        margin: 0 auto;
     }
-    @media (max-width: 500px){
-        .middle-image {
-            width: 600px;
-        }
-    }
+   
 	.bottom {
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -219,14 +218,16 @@ body {
         }
     } 
 	.contact{
-		margin-top: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
-    @media (max-width: 500px){
+    @media (max-width: 800px){
         .contact{
             width: 95%;
             margin: 0 auto;
 
         }
+    }
 	.number {
 		margin-top: 20px;
 	}
@@ -235,8 +236,9 @@ body {
 	}
 	
 	footer {
-		text-align: center;
-		padding-top: 60px;
+        text-align: center;
+        padding-top: 60px;
+        width: 100%;
     }
    
 	
